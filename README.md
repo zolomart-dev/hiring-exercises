@@ -1,4 +1,4 @@
-# Hiring @ Welcome
+# Zolo
 
 ![hiring process graphic!](https://welcome-public-assets.s3.us-east-2.amazonaws.com/welcome_hiring_process.png)
 
