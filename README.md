@@ -45,7 +45,7 @@ We know that the technical hiring processes in our industry are generally broken
             * NOTE: a 'working' exercise is awesome, however it is NOT a hard requirement. We mean it!
         * Any feedback/notes (i.e. if something was hard, confusing, frustrating, etc)
         * Anything else you'd like us to know about your submission
-    * a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
+    * a `ROADMAP.md` with what you would add/change if you had more time. Dream big
     * a super-simple test suite if applicable (even one test is a bonus)
     * Some form of lightweight technical documentation (code comments are fine)
 

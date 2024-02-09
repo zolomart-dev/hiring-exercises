@@ -3,7 +3,7 @@
 ```
 TIMEBOX:    2-3 hours max. We mean it! Set at timer and hard-stop at 3 hours ⏱
 LANGUAGES:  Javascript, Typescript, SQL
-RUNTIMES: , NodeJS, Deno, Bun
+RUNTIMES:   NodeJS, Deno, Bun
 FRAMEWORKS: Express, Koa, Nestjs, Hono, ...
 TESTS:      nice to have, but not mandatory
 DOCS:       nice to have, but not mandatory
@@ -11,7 +11,7 @@ DOCS:       nice to have, but not mandatory
 
 ## Overview
 
-This exercise is to implement the best possible solution to one of the exercises below in the time alloted. We're evaluating your ability to take a set of requirements and spike a holistic solution that demonstrates craftsmanship, thoughtfulness and good architectural design. This is **NOT** a test of how well you know Node/Express/SQL, nor should you try to impress us with overly clever and obtuse solutions. If you want to impress us, build something that is beautiful, intuitive and easy to debug/test/extend :smiley: .
+This exercise is to implement the best possible solution to one of the exercises below in the time allotted. We're evaluating your ability to take a set of requirements and spike a holistic solution that demonstrates craftsmanship, thoughtfulness and good architectural design. This is **NOT** a test of how well you know Node/Express/SQL, nor should you try to impress us with overly clever and obtuse solutions. If you want to impress us, build something that is beautiful, intuitive and easy to debug/test/extend :smiley: .
 
 Ideally your solution would have some way to run locally and test the results so we can fully analyze your efforts.
 
@@ -31,7 +31,7 @@ The goal of this exercise is to design a read-only API (REST or GraphAPI) that r
   * Filter by one or more fields/attributes (e.g. `/compensation_data?salary[gte]=120000&zip_code=11201` )
   * Sort by one or more fields/attributes (e.g. `/compensation_data?sort=last_name`)
 * fetch a single record via GET request
-  * **Stretch Goal**: return a sparse fieldset (e.g. `/compensation_data?fields=first_name,last_name,salary`)
+  * **Stretch Goal**: return a sparse field set (e.g. `/compensation_data?fields=first_name,last_name,salary`)
 * have the JSON response be normalized into a uniform schema via a serializer or json template
   * **Stretch Goal**: serialize more than one compensation [data set](/shared/salary_datasets)
 
@@ -59,11 +59,11 @@ The goal of this exercise is to design a highly normalized database schema for s
 ### A few quick notes on submitting Exercise B
 
 * Ideally this exercise would use SQLite or Postgres, but any SQL database is OK
-* Feel free to upload the entire SQL dump (with schema) of the populated database, or create a script that creates the schema and populates the database with one or more of the provided salary data CSVs. Please do whatever makes the most sense given the time alloted.
-* If you'd like to use a scripting language like Python or Ruby along with an ORM to make this easier, thats fine with us!
+* Feel free to upload the entire SQL dump (with schema) of the populated database, or create a script that creates the schema and populates the database with one or more of the provided salary data CSVs. Please do whatever makes the most sense given the time allotted.
+* If you'd like to use a scripting language like Python or Ruby along with an ORM to make this easier, that's fine with us!
 
 ---
 
 ## Submitting your exercise
 
-1. See [instructions for submitting your work](https://github.com/pineapplehq/hiring-exercises/blob/master/README.md#general-instructions)
+1. See [instructions for submitting your work](https://github.com/zolomart-dev/hiring-exercises/blob/master/README.md#general-instructions)

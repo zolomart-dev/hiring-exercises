@@ -10,7 +10,7 @@ DOCS:       nice to have, but not mandatory
 
 # Overview
 
-This exercise is to implement the best possible solution to one of the exercises below in the time alloted. We're evaluating your ability to take a set of requirements and spike a holistic solution that demonstrates craftsmanship, thoughtfulness and attention to user experience. This is **NOT** a test of how well you know React or ES7+, nor should you try to impress us with overly clever and obtuse solutions. If you want to impress us, build something that is beautiful, intuitive and easy to debug/test/extend :smiley: .
+This exercise is to implement the best possible solution to one of the exercises below in the time allotted. We're evaluating your ability to take a set of requirements and spike a holistic solution that demonstrates craftsmanship, thoughtfulness and attention to user experience. This is **NOT** a test of how well you know React or ES7+, nor should you try to impress us with overly clever and obtuse solutions. If you want to impress us, build something that is beautiful, intuitive and easy to debug/test/extend :smiley: .
 
 Ideally your solution would have some way to run locally and visualize the results in a browser so we can fully analyze the experience and not just the source code.
 

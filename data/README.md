@@ -8,7 +8,7 @@ FRAMEWORKS: Jupyter
 
 ## Overview
 
-This exercise is to evaluate real-world compensation data. This is **NOT** a test of how well you know [Jupyter](https://jupyter.org/)/Python/SQL, nor should you try to impress us with overly clever and obtuse analysis. If you want to impress us use the time alloted to extract the maximum value from the data possible.
+This exercise is to evaluate real-world compensation data. This is **NOT** a test of how well you know [Jupyter](https://jupyter.org/)/Python/SQL, nor should you try to impress us with overly clever and obtuse analysis. If you want to impress us use the time allotted to extract the maximum value from the data possible.
 
 Submissions should be in the form of a [Jupyter notebook](https://jupyter.org/), however you are free to write custom SQL queries or functions if that better fits your work style. Ideally your solution would have some way to run locally and test the results so we can fully analyze your efforts.
 
@@ -30,7 +30,7 @@ The goal of this exercise is analyze a data set containing several CSVs of compe
   * Salary (base compensation) in $US dollars with cents
   * Years experience
   * Bonus
-* Validate that you can perform the following analyses and export the results via [Jupyter notebook](https://jupyter.org/), a CSV or attach screenshots of the the output
+* Validate that you can perform the following analyses and export the results via [Jupyter notebook](https://jupyter.org/), a CSV or attach screenshots of the output
   * **Compensation by Role**
     * Find the average compensation of roles where the role is some kind of technical professional
     * Visualize the relationship between compensation and role
@@ -46,4 +46,4 @@ The goal of this exercise is analyze a data set containing several CSVs of compe
 
 ## Submitting your exercise
 
-1. See [instructions for submitting your work](https://github.com/pineapplehq/hiring-exercises/blob/master/README.md#general-instructions)
+1. See [instructions for submitting your work](https://github.com/zolomart-dev/hiring-exercises/blob/master/README.md#general-instructions)
