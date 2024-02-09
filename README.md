@@ -4,7 +4,7 @@
 
 Hello! If you are reading this then we're likely in the process chatting with you about a technical role at [Zolo](https://zolomart.co). If so, congratulations :tada: !
 
-In order to move forward, we'd like to know a little about how you work. To that end, this repository contains a set of **short, time-boxed** (approximately 1-3 hours max) that you can use demonstrate your skills and abilities.
+In order to move forward, we'd like to know a little about how you work. To that end, this repository contains a set of **short, time-boxed** (approximately 1-3 hours max) exercises that you can use demonstrate your skills and abilities.
 
 These are **NOT** *coding exercises*. The goal of these exercises is to give you an asynchronous medium for demonstrating how you would break down a set of user stories and requirements into something akin to a rapid POC/spike. There is no grading or scoring, nor is it pass-fail, rather these are meant to serve a sample of your reductive thought processes as an engineer. We know that 3 hours is not a lot of time and you will both not be able to complete everything you'd like, and will feel pressure to do more. Please truly hold yourself to 3 hours max and make sure to create the `ROADMAP.md` file as outlined in the instructions below.
 
@@ -25,16 +25,16 @@ We know that the technical hiring processes in our industry are generally broken
 ## General Instructions
 
 1. Choose an exercise directory that matches your primary domain. This is the area in which you feel the most comfortable and have the highest degree of mastery
-    * [frontend](frontend/instructions.md)
-    * [backend](backend/instructions.md)
-    * [data](data/instructions.md)
-    * [devops](devops/instructions.md)
+    * [frontend](frontend/README.md)
+    * [backend](backend/README.md)
+    * [data](data/README.md)
+    * [devops](devops/README.md)
 
-2. Read the `instructions.md` file in the matching directory. Be sure to read the instructions carefully and ask any clarifying questions either via [dev@zolomart.co](dev@zolomart.co)
+2. Read the `README.md` file in the matching directory. Be sure to read the instructions carefully and ask any clarifying questions either via [dev@zolomart.co](dev@zolomart.co)
 
 3. Create a new **private/public repository** for your exercise (We recommend private repo to preserve your anonymity so it's not obvious you are looking for a new tole.)
 
-4. Complete as much of the exercise as you can in 3 hours or less. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be Nodejs, Javascript (ReactJS), and SQL (purely because those are the languages we use to build Welcome and will be the most familiar with)
+4. Complete as much of the exercise as you can in 3 hours or less. Unless otherwise specified in the `README.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be Nodejs, Javascript (ReactJS), and SQL (purely because those are the languages we use to build Welcome and will be the most familiar with)
 
 5. Be sure to include the following in your submission
     * a `README.md` with the following information
