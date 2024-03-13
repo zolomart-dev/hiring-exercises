@@ -1,4 +1,4 @@
-# Welcome Data Engineering/Science Product Exercise
+# ZOLO Data Engineering/Science Product Exercise
 
 ```
 TIMEBOX:    2-4 hours max. We mean it! Set at timer and hard-stop at 4 hours ⏱
