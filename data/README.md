@@ -59,10 +59,8 @@ Your goal is to build a matching system that achieves the highest possible accur
 
 ## Evaluation Criteria
 
-Your submission will be evaluated based on the following aspects:
+- Depth of Analysis: How well do you identify linguistic challenges and dataset nuances?
+- Technical Rigor: Are your methods appropriate and optimized?
+- Clarity: Can stakeholders understand your process and results?
 
-- Problem Analysis: Clarity in understanding the matching challenge and data nuances.
-- Technical Implementation: Quality, efficiency, and readability of your code.
-- Innovation: Creativity in the approaches proposed and the solution implemented.
-- Presentation: Clear documentation, visualizations, and explanation of your results.
-- Practical Value: Insight into how your solution can be scaled or applied in a real-world scenario.
+Tip: Focus on a simple, well-explained solution rather than overly complex models.
