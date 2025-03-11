@@ -25,9 +25,7 @@ Your goal is to build a matching system that achieves the highest possible accur
 - Data Analysis:
   - Analyze the language used in the `input` versus the `product_guide` columns.
   - Identify differences in terminology, abbreviations, or style.
-- Dataset Variations:
-  - Explore how the number of products in `product_guide` varies across datasets.
-  - Consider how these differences might affect matching performance.
+  - Explore how the number of products in `product_guide` varies across datasets and how these differences might affect matching performance.
 - Methodology and Approaches:
   - Propose different strategies to solve the matching problem. Possibilities might include:
     - Rule-based approaches (e.g., regular expressions, heuristics, fuzzy matching)
@@ -37,11 +35,11 @@ Your goal is to build a matching system that achieves the highest possible accur
 - Implementation:
   - Implement your chosen approach (or a combination of approaches) in Python using Jupyter Notebook.
   - Include code, visualizations, and a clear explanation of your methodology.
-  - Ensure your solution is runnable locally, and provide instructions on how to execute your notebook.
 - Evaluation:
   - Measure and report the accuracy of your matching solution.
   - Provide insights into what worked well and what could be improved.
-  - Consider discussing potential next steps or alternative approaches.
+- Next Steps:
+  - Discuss potential next steps or alternative approaches, give your wildest ideas! This will be a great opportunity to show us your creativity.
 
 ## Submission Guidelines
 
@@ -59,6 +57,7 @@ Your goal is to build a matching system that achieves the highest possible accur
 
 ## Evaluation Criteria
 
+- Innovation: Creativity in the approaches proposed and crazy new ideas you want to try out beyond this exercise with us. (This is a very important part of the exercise!)
 - Depth of Analysis: How well do you identify linguistic challenges and dataset nuances?
 - Technical Rigor: Are your methods appropriate and optimized?
 - Clarity: Can stakeholders understand your process and results?
