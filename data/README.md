@@ -1,49 +1,68 @@
 # ZOLO Data Engineering/Science Product Exercise
 
 ```
-TIMEBOX:    2-4 hours max. We mean it! Set at timer and hard-stop at 4 hours ⏱
-LANGUAGES:  Python, SQL
+TIMEBOX:    7 days
+LANGUAGES:  Python
 FRAMEWORKS: Jupyter
 ```
 
 ## Overview
 
-This exercise is to evaluate real-world compensation data. This is **NOT** a test of how well you know [Jupyter](https://jupyter.org/)/Python/SQL, nor should you try to impress us with overly clever and obtuse analysis. If you want to impress us use the time allotted to extract the maximum value from the data possible.
+In this exercise, you will research and implement a subset of ZOLO's matching problem. The purpose is to assess your ability to analyze data, develop a solution, and present clear, actionable results. This exercise is not a test of your Jupyter, Python, or SQL skills per se, but rather an opportunity to demonstrate your problem-solving approach, research capabilities, and technical presentation.
 
-Submissions should be in the form of a [Jupyter notebook](https://jupyter.org/), however you are free to write custom SQL queries or functions if that better fits your work style. Ideally your solution would have some way to run locally and test the results so we can fully analyze your efforts.
+## Problem Description
 
-### Inspiration
-* [Github: jrenner/hacker-news-salaries-data](https://cdn.rawgit.com/jrenner/hacker-news-salaries-data/master/explore_salaries.html)
-* [Github: minimaxir/sfba-compensation](https://github.com/minimaxir/sfba-compensation/blob/master/angelist_sfbayarea_jobs.ipynb)
-* [Anaconda: gwinnen/sf-salaries-exercise](https://anaconda.org/gwinnen/sf-salaries-exercise/notebook)
-* [Kaggle: drgilermo/salary-analysis](https://www.kaggle.com/drgilermo/salary-analysis)
+ZOLO's core functionality involves matching unstructured user text to a specific subset of catalog products (referred to as the "product guide") for each customer. In the provided datasets:
 
+- `input` Column: Contains unstructured text from user orders (e.g., messages sent via WhatsApp).
+- `product_guide` Column: Contains a comma-separated list of products available in the order guide for that customer.
+- `match` Column: Represents the correct product from the `product_guide` that corresponds to the user's input.
 
-## Exercise
+Your goal is to build a matching system that achieves the highest possible accuracy in predicting the correct product (the `match`) based on the given unstructured `input` and the list of products in `product_guide`.
 
----
-The goal of this exercise is analyze a data set containing several CSVs of compensation data submitted by individuals via Google Sheets. This data has not been modified in any way from the original source.
+## Key Areas to Explore
 
-* Clean and format all [3 compensation data CSVs](/shared/salary_datasets) to use a common set of fields/attributes/columns containing at least the following...
-  * Role/Title
-  * Location
-  * Salary (base compensation) in $US dollars with cents
-  * Years experience
-  * Bonus
-* Validate that you can perform the following analyses and export the results via [Jupyter notebook](https://jupyter.org/), a CSV or attach screenshots of the output
-  * **Compensation by Role**
-    * Find the average compensation of roles where the role is some kind of technical professional
-    * Visualize the relationship between compensation and role
-  * **Compensation by Geographic Region**
-    * Average, min, and max compensation per city/region
-    * Visualize the relationship between city and salary/base compensation
-  * **Compensation by Experience**
-    * Visualize the relationship between cash compensation and other forms of compensation
-    * Visualize the relationship between years of experience and total compensation (cash and bonus/equity)
-  * Visualize One interesting query/facet of your choice (*average compensation by gender perhaps???*)
+- Data Analysis:
+  - Analyze the language used in the `input` versus the `product_guide` columns.
+  - Identify differences in terminology, abbreviations, or style.
+- Dataset Variations:
+  - Explore how the number of products in `product_guide` varies across datasets.
+  - Consider how these differences might affect matching performance.
+- Methodology and Approaches:
+  - Propose different strategies to solve the matching problem. Possibilities might include:
+    - Rule-based approaches (e.g., regular expressions, heuristics, fuzzy matching)
+    - Embedding-based methods (e.g., SBERT, other semantic similarity models)
+    - Hybrid methods that combine both techniques
+  - Discuss the trade-offs between different approaches (accuracy, scalability, interpretability).
+- Implementation:
+  - Implement your chosen approach (or a combination of approaches) in Python using Jupyter Notebook.
+  - Include code, visualizations, and a clear explanation of your methodology.
+  - Ensure your solution is runnable locally, and provide instructions on how to execute your notebook.
+- Evaluation:
+  - Measure and report the accuracy of your matching solution.
+  - Provide insights into what worked well and what could be improved.
+  - Consider discussing potential next steps or alternative approaches.
 
----
+## Submission Guidelines
 
-## Submitting your exercise
+- Format:
+  - Your submission should be a well-documented Jupyter Notebook.
+- Content:
 
-1. See [instructions for submitting your work](https://github.com/zolomart-dev/hiring-exercises/blob/master/README.md#general-instructions)
+  - A clear description of your research and thought process.
+  - Code implementation with comments and explanations.
+  - Visualizations or metrics that support your analysis and results.
+  - A conclusion summarizing your findings and potential future improvements.
+
+- Instructions:
+  - Refer to the [submission instructions](https://github.com/zolomart-dev/hiring-exercises/blob/master/README.md#general-instructions) for detailed guidelines.
+
+## Evaluation Criteria
+
+Your submission will be evaluated based on the following aspects:
+
+- Problem Analysis: Clarity in understanding the matching challenge and data nuances.
+- Technical Implementation: Quality, efficiency, and readability of your code.
+- Innovation: Creativity in the approaches proposed and the solution implemented.
+- Presentation: Clear documentation, visualizations, and explanation of your results.
+- Practical Value: Insight into how your solution can be scaled or applied in a real-world scenario.
